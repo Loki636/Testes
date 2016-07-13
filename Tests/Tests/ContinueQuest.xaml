@@ -1,0 +1,33 @@
+﻿<Window x:Class="Tests.ContinueQuest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tests"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800" MinHeight="600" MinWidth="800">
+    <Grid Background="#FF2556FB">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="259*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Label x:Name="NameDiscipline" Content="Дисциплина" HorizontalAlignment="Center" Margin="48,106,33,0" VerticalAlignment="Top" Width="119" FontFamily="Times New Roman" FontSize="18.667"  Grid.Column="0" Foreground="#FFF0F0F0" Background="#00000000"/>
+            <ComboBox x:Name="DisciplineBox" HorizontalAlignment="Left" Height="25" Margin="10,145,0,0" VerticalAlignment="Top" Width="180" FontFamily="Times New Roman" FontSize="16" Grid.Column="0"/>
+            <Label x:Name="NameThema" Content="Тема" HorizontalAlignment="Center" Height="29" Margin="77,181,62,0" VerticalAlignment="Top" Width="61" FontFamily="Times New Roman" FontSize="18.667"  Grid.Column="0" Foreground="#FFF0F0F0" Background="#00000000"/>
+            <ComboBox x:Name="ThemaBox" HorizontalAlignment="Left" Height="25" Margin="13,215,0,0" VerticalAlignment="Top" Width="177" Grid.Column="0"/>
+            <Button x:Name="GoBack" Content="Назад" HorizontalAlignment="Left" Height="30" Margin="50,10,0,0" VerticalAlignment="Top" Width="106" FontSize="18.667" Background="White" FontFamily="Times New Roman" Grid.Column="0" Foreground="#FF0068FD" Click="GoBack_Click"/>
+            <Button x:Name="StartTest" Content="Начать тест" HorizontalAlignment="Left" Margin="48,260,0,0" VerticalAlignment="Top" Width="101" Height="34" FontFamily="Times New Roman" FontSize="18.667" Background="White" Foreground="#FF0068FD" BorderBrush="White"/>
+        </Grid>
+        <Grid Grid.Column="1" Background="White">
+            <Button x:Name="PrevQuestion" Content="Предыдущий" HorizontalAlignment="Right" Height="41" Margin="0,0,341,10" VerticalAlignment="Bottom" Width="117" Background="WhiteSmoke" FontFamily="Times New Roman" FontSize="18.667" Foreground="#FF0068FD" BorderBrush="#FF0068FD"/>
+            <Button x:Name="NextQestion" Content="Следующий" HorizontalAlignment="Right" Height="41" Margin="0,0,208,10" VerticalAlignment="Bottom" Width="117" FontFamily="Times New Roman" FontSize="18.667" Background="WhiteSmoke" Foreground="#FF0068FD" BorderBrush="#FF0068FD"/>
+            <Button x:Name="button" Content="Завершить тест" HorizontalAlignment="Right" Height="41" Margin="0,0,56,10" VerticalAlignment="Bottom" Width="135" Background="WhiteSmoke" BorderBrush="#FF0068FD" Foreground="#FF0068FD" FontFamily="Times New Roman" FontSize="18.667"/>
+            <Label x:Name="NumberQestion" Content="Вопрос" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="86" FontFamily="Times New Roman" FontSize="18.667" Foreground="#FF0068FD"/>
+            <Label x:Name="AllCountQestion" Content="Всего вопросов" HorizontalAlignment="Right" Height="31" Margin="0,10,10,0" VerticalAlignment="Top" Width="164" FontFamily="Times New Roman" FontSize="18.667" Foreground="#FF0068FD"/>
+            <Grid x:Name="Question" Margin="10,46,23,56" Background="#FFF0F0F0" >
+
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,19 @@
+﻿<Window x:Class="Tests.AddStudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tests"
+        mc:Ignorable="d"
+        Title="AddStudent" Height="600" Width="800" MinHeight="600" MinWidth="800">
+    <Grid Background="#FF0068FD">
+        <Label x:Name="AddStudents" Content="Добавление студента в группу&#xD;&#xA;" HorizontalAlignment="Left" Height="35" Margin="17,24,0,0" VerticalAlignment="Top" Width="256" FontFamily="Times New Roman" FontSize="18.667" Foreground="White"/>
+        <Label x:Name="nameGroup" Content="Группа" HorizontalAlignment="Left" Height="31" Margin="20,110,0,0" VerticalAlignment="Top" Width="176" FontFamily="Times New Roman" FontSize="18.667" Background="#00000000" Foreground="White"/>
+        <ComboBox x:Name="GroupBox" HorizontalAlignment="Left" Height="31" Margin="26,146,0,0" VerticalAlignment="Top" Width="256" BorderBrush="#FF0068FD" Foreground="#FF0068FD" FontFamily="Times New Roman" FontSize="18.667"/>
+        <Label x:Name="StudentName" Content="Студент (Ф.И.О.)" HorizontalAlignment="Left" Height="34" Margin="20,198.333,0,0" VerticalAlignment="Top" Width="220" FontFamily="Times New Roman" FontSize="18.667" Foreground="White"/>
+        <TextBox x:Name="Student" HorizontalAlignment="Left" Height="28" Margin="27,245,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256" FontFamily="Times New Roman" FontSize="20"/>
+        <Button x:Name="Cancel" Content="Отмена" HorizontalAlignment="Right" Height="42" Margin="0,0,151,27" VerticalAlignment="Bottom" Width="137" Background="White" BorderBrush="#FF0068FD" Foreground="#FF0068FD" FontFamily="Times New Roman" FontSize="18.667" Click="Cancel_Click"/>
+        <Button x:Name="Add" Content="Добавить" HorizontalAlignment="Right" Height="41" Margin="0,0,13,28" VerticalAlignment="Bottom" Width="133" Background="White" BorderBrush="#FF0068FD" FontSize="18.667" FontFamily="Times New Roman" Foreground="#FF0068FD" Click="Add_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Questions>
+  <Question Id="1">
+    <Text>q</Text>
+    <Answers>
+      <IdOfAnswer>1</IdOfAnswer>
+      <IdOfAnswer>2</IdOfAnswer>
+    </Answers>
+  </Question>
+</Questions>

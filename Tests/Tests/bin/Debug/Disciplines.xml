@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Disciplines>
+  <Discipline Id="2">
+    <Name />
+    <Themes>
+      <IdOfTheme>0</IdOfTheme>
+    </Themes>
+  </Discipline>
+</Disciplines>
