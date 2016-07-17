@@ -22,5 +22,12 @@ namespace Tests
         {
             InitializeComponent();
         }
+
+        private void button9_Click(object sender, RoutedEventArgs e)
+        {
+            Sttetings Settings = new Sttetings();
+            this.Close();
+            Settings.Show();
+        }
     }
 }

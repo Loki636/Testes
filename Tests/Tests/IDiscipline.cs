@@ -5,7 +5,6 @@ namespace Tests
 {
     interface IDiscipline
     {
-
         Theme GetTheme(string NameTheme);
     }
 }

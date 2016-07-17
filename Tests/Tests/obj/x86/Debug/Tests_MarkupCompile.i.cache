@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Евгений\Desktop\Tests\Tests\obj\x86\Debug\
+C:\Users\Евгений\Documents\GitHub\Testes\Tests\Tests\obj\x86\Debug\
 Tests
 none
 false
 DEBUG;TRACE
-C:\Users\Евгений\Desktop\Tests\Tests\App.xaml
+C:\Users\Евгений\Documents\GitHub\Testes\Tests\Tests\App.xaml
 8-1996396041
 
-27529262472
-12-1381780322
+29-1625226100
+15-1019567987
 AddStudent.xaml;ContinueQuest.xaml;Discipline(CRUD).xaml;LogIn.xaml;LogInAsStudent.xaml;MainWindow.xaml;Sttetings.xaml;Students(CRUD).xaml;
 
-True
+False
 

@@ -1,4 +1,4 @@
-﻿using System;
+﻿`using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +11,8 @@ namespace Tests
         List<int> _AnswerUser = new List<int>();
         public AnswersUser(Question quest, List<int> ind)
         {
-
+            SetQuest(quest);
+            SetAnswer(ind);
         }
         public void SetQuest(Question ques)
         {

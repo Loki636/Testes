@@ -19,7 +19,7 @@
             <ComboBox x:Name="comboBox2" Height="30" Margin="15,245,10,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="18.667" Foreground="#FF0068FD" BorderBrush="#FF0068FD"/>
             <Button x:Name="button1" Content="Удалить Тест" Height="30" Margin="0,245,-195,0" VerticalAlignment="Top" Background="#FF0068FD" BorderBrush="White" Foreground="White" FontFamily="Times New Roman" FontSize="18.667" HorizontalAlignment="Right" Width="180"/>
             <Button x:Name="button2" Content="Удалить Дисциплину" Height="30" Margin="0,60,-195,0" VerticalAlignment="Top" Background="#FF0068FD" Foreground="White" FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Right" Width="180" BorderBrush="#FFF7F7F7"/>
-            <Button x:Name="button9" Content="Назад" Height="50" Margin="15,0,20,9" VerticalAlignment="Bottom" Background="#FF0068FD" Foreground="White" BorderBrush="White" FontFamily="Times New Roman" FontSize="18.667"/>
+            <Button x:Name="button9" Content="Назад" Height="50" Margin="15,0,20,9" VerticalAlignment="Bottom" Background="#FF0068FD" Foreground="White" BorderBrush="White" FontFamily="Times New Roman" FontSize="18.667" Click="button9_Click"/>
         </Grid>
         <Label x:Name="label2" Content="Тест" Height="30" Margin="75,210,60,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="18.667" Foreground="#FF0068F7"/>
         <Button x:Name="button" Content="Удалить Тему" Height="30" Margin="15,155,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="18.667" Background="#FF0068FD" Foreground="White" Grid.Column="1" HorizontalAlignment="Left" Width="180" BorderBrush="White">

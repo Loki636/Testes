@@ -36,5 +36,12 @@ namespace Tests
             this.Close();
             _studetns.Show();
         }
+
+        private void Disciplines_Click(object sender, RoutedEventArgs e)
+        {
+            Discipline_CRUD_ Discipline = new Discipline_CRUD_();
+            this.Close();
+            Discipline.Show();
+        }
     }
 }

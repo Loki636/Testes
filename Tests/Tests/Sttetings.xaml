@@ -13,7 +13,7 @@
         </Grid.ColumnDefinitions>
         <Grid x:Name="PannelSettings" Grid.Column="0" Background="White">
             <Button x:Name="AddStudent" Content="Студенты" HorizontalAlignment="Left" Height="35" Margin="10,10,0,0" VerticalAlignment="Top" Width="148" Background="#FF0068FD" Foreground="White" FontFamily="Times New Roman" FontSize="18.667" Grid.Column="0" Click="AddStudent_Click"/>
-            <Button x:Name="Disciplines" Content="Дисциплины" HorizontalAlignment="Left" Height="35" Margin="10,60,0,0" VerticalAlignment="Top" Width="148" Foreground="White" Background="#FF0068FD" FontFamily="Times New Roman" FontSize="20" Grid.Column="0"/>
+            <Button x:Name="Disciplines" Content="Дисциплины" HorizontalAlignment="Left" Height="35" Margin="10,60,0,0" VerticalAlignment="Top" Width="148" Foreground="White" Background="#FF0068FD" FontFamily="Times New Roman" FontSize="20" Grid.Column="0" Click="Disciplines_Click"/>
             <Button x:Name="Users" Content="Пользователи" HorizontalAlignment="Left" Height="40" Margin="10,109,0,0" VerticalAlignment="Top" Width="148" FontFamily="Times New Roman" FontSize="20" Background="#FF0068FD" Foreground="#FFF9F9F9" Grid.Column="0"/>
             <Button x:Name="Back" Content="Назад" HorizontalAlignment="Left" Height="41" Margin="10,509,0,0" VerticalAlignment="Top" Width="148" Background="#FF0068FD" Foreground="White" FontFamily="Times New Roman" FontSize="20" Grid.Column="0" Click="Back_Click"/>
         </Grid>
